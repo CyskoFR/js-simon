@@ -3,3 +3,52 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+#show-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px;
+    height: 100vh;
+    background-color: aquamarine;
+}
+
+#random-number_box {
+    width: 100%;
+}
+
+#random-numbers_row, #result_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.row_custom {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#start-game_button {
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 14px;
+    box-shadow: 1px 1px 4px grey;
+}
+
+.number-slot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6px 18px;
+    font-size: 32px;
+    background-color: white;
+    border-radius: 8px;
+    height: 60px;
+    width: 60px;
+}
